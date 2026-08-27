@@ -25,6 +25,12 @@ This portfolio contains original demonstration projects built with synthetic, pr
 | [04. Business operations](projects/04-business-operations/README.md) | How should a remote AI-data program scale without losing quality? | Operating model, capacity plan, risk register, escalation rules and decision memo |
 | [05. Data annotation](projects/05-data-annotation/README.md) | Can network incidents be labeled accurately and consistently? | 50-record synthetic dataset, ontology, edge cases, dual annotations and adjudication |
 
+## Analytical centerpiece
+
+![AI Operations Quality Dashboard showing quality, SLA, productivity and exception triggers](assets/ai-operations-quality-dashboard.png)
+
+[Download the formula-driven Excel workbook](projects/03-data-analysis/ai_operations_quality_dashboard.xlsx) · [Read the analysis and KPI definitions](projects/03-data-analysis/README.md)
+
 ## Reproducible evidence snapshot
 
 | Workstream | Measured result |
