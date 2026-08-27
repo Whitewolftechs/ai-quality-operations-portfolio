@@ -1,4 +1,4 @@
-# Jesse Tabler | AI Quality, Data and Business Operations
+# White Wolf USA | AI Quality, Data and Business Operations
 
 [![Portfolio quality checks](https://github.com/Whitewolftechs/ai-quality-operations-portfolio/actions/workflows/portfolio-quality.yml/badge.svg)](https://github.com/Whitewolftechs/ai-quality-operations-portfolio/actions/workflows/portfolio-quality.yml)
 
@@ -27,7 +27,7 @@ This portfolio contains original demonstration projects built with synthetic, pr
 
 ## Analytical centerpiece
 
-![AI Operations Quality Dashboard showing quality, SLA, productivity and exception triggers](assets/ai-operations-quality-dashboard.png)
+![AI Operations Quality Dashboard showing quality, SLA, productivity and exception triggers](https://raw.githubusercontent.com/Whitewolftechs/ai-quality-operations-portfolio/main/assets/ai-operations-quality-dashboard.png)
 
 [Download the formula-driven Excel workbook](projects/03-data-analysis/ai_operations_quality_dashboard.xlsx) · [Read the analysis and KPI definitions](projects/03-data-analysis/README.md)
 

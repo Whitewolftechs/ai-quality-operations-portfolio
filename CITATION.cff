@@ -3,10 +3,8 @@ message: "If this portfolio framework is useful, please cite it using these meta
 title: "AI Quality, Data and Business Operations Portfolio"
 type: software
 authors:
-  - family-names: "Tabler"
-    given-names: "Jesse"
-version: 1.0.0
-date-released: 2026-08-10
+  - name: "White Wolf USA"
+version: 1.0.1
+date-released: 2026-08-27
 license: MIT
 abstract: "Five reproducible demonstration case studies in prompt design, rubric writing, data analysis, business operations and data annotation."
-

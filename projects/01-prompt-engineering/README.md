@@ -6,7 +6,7 @@ Can a structured prompt classify remote IT support requests accurately while pro
 
 ## Why this resembles real work
 
-Remote AI-data programs frequently require prompt design, response evaluation, error analysis and guideline refinement. This case study applies those tasks to a domain grounded in Jesse Tabler's network-administration background.
+Remote AI-data programs frequently require prompt design, response evaluation, error analysis and guideline refinement. This case study applies those tasks to a domain grounded in White Wolf USA's network-administration background.
 
 ## Deliverables
 

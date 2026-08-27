@@ -31,9 +31,8 @@ Automated checks can identify schema failures, mismatched labels and KPI excepti
 
 ## Bias and limitations
 
-The datasets are deliberately small and designed for demonstration. They cannot establish production performance, model generalization or fairness across populations. Network-support examples reflect Jesse Tabler's documented technical domain and should not be generalized to unrelated high-stakes domains such as medicine, law or lending.
+The datasets are deliberately small and designed for demonstration. They cannot establish production performance, model generalization or fairness across populations. Network-support examples reflect White Wolf USA's technical domain and should not be generalized to unrelated high-stakes domains such as medicine, law or lending.
 
 ## Change control
 
 Material revisions should update the project version, regenerate the validation summary and record the change in `CHANGELOG.md`.
-

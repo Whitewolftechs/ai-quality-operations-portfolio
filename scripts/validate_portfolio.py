@@ -184,7 +184,7 @@ def main() -> int:
     failures.extend(validate_markdown_links())
 
     report = {
-        "portfolio_version": "1.0.0",
+        "portfolio_version": "1.0.1",
         "synthetic_data_only": True,
         "prompt_engineering": prompt_metrics,
         "rubric_writing": rubric_metrics,
@@ -205,4 +205,3 @@ def main() -> int:
 
 if __name__ == "__main__":
     raise SystemExit(main())
-
