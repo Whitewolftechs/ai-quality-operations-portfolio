@@ -1,0 +1,78 @@
+{
+  "portfolio_version": "1.0.0",
+  "synthetic_data_only": true,
+  "prompt_engineering": {
+    "v1": {
+      "category_accuracy": 0.75,
+      "priority_accuracy": 0.7,
+      "pii_recall": 0.5,
+      "schema_compliance": 0.8
+    },
+    "v2": {
+      "category_accuracy": 0.95,
+      "priority_accuracy": 0.9,
+      "pii_recall": 1.0,
+      "schema_compliance": 1.0
+    }
+  },
+  "rubric_writing": {
+    "records": 18,
+    "exact_agreement": 0.8555555555555555,
+    "within_one_agreement": 1.0,
+    "dimension_qwk": {
+      "factuality": 0.92,
+      "safety": 1.0,
+      "instruction": 0.8341013824884793,
+      "clarity": 0.7169811320754718,
+      "tone": 0.88
+    },
+    "mean_score_a": 0.8166666666666667,
+    "mean_score_b": 0.8416666666666667
+  },
+  "data_analysis": {
+    "rows": 48,
+    "tasks": 88338,
+    "first_pass_quality": 0.9388824741334421,
+    "sla_attainment": 0.9514365278815459,
+    "rework_rate": 0.05132559034617039,
+    "productivity_tasks_per_hour": 7.611407892469412,
+    "teams": {
+      "General QA": {
+        "first_pass_quality": 0.9074086812960033,
+        "sla_attainment": 0.9257756070716103,
+        "productivity_tasks_per_hour": 6.902659069325736
+      },
+      "Spanish": {
+        "first_pass_quality": 0.9324813720184822,
+        "sla_attainment": 0.9485493069142072,
+        "productivity_tasks_per_hour": 7.675079872204472
+      },
+      "Technical": {
+        "first_pass_quality": 0.9580737279335411,
+        "sla_attainment": 0.9567757009345794,
+        "productivity_tasks_per_hour": 6.60437205315045
+      },
+      "US English": {
+        "first_pass_quality": 0.9480651731160896,
+        "sla_attainment": 0.9619144602851324,
+        "productivity_tasks_per_hour": 8.513747832548923
+      }
+    }
+  },
+  "business_operations": {
+    "capacity_weeks": 8,
+    "weeks_with_negative_gap": 8,
+    "risks": 8,
+    "critical_impact_risks": 2
+  },
+  "data_annotation": {
+    "records": 50,
+    "category_agreement_a_b": 0.84,
+    "category_accuracy_a": 0.9,
+    "category_accuracy_b": 0.86,
+    "severity_agreement_a_b": 0.94,
+    "pii_positive_records": 3
+  },
+  "status": "PASS",
+  "failures": []
+}

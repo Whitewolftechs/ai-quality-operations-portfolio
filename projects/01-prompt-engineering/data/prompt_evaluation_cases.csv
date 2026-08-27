@@ -1,0 +1,21 @@
+case_id,ticket_text,expected_category,expected_priority,expected_pii,expected_route,v1_category,v1_priority,v1_pii,v1_route,v1_schema_valid,v2_category,v2_priority,v2_pii,v2_route,v2_schema_valid,v2_needs_human_review
+PE-01,Entire office cannot reach the internet or cloud phones after the core switch restarted.,CONNECTIVITY,P1,NO,network,CONNECTIVITY,P2,NO,network,YES,CONNECTIVITY,P1,NO,network,YES,NO
+PE-02,A new contractor starts Monday and needs an approved laptop and standard applications.,REQUEST,P4,NO,service_desk,ACCESS,P4,NO,identity,YES,REQUEST,P4,NO,service_desk,YES,NO
+PE-03,A user pasted [PASSWORD] into a suspicious page and now sees unfamiliar sign-ins.,SECURITY,P2,YES,security,SECURITY,P2,YES,security,YES,SECURITY,P2,YES,security,YES,NO
+PE-04,The payroll application closes on launch for the finance team and there is no workaround.,SOFTWARE,P2,NO,applications,SOFTWARE,P3,NO,applications,NO,SOFTWARE,P2,NO,applications,YES,NO
+PE-05,"The laptop screen flickers when the lid moves, but an external monitor works.",HARDWARE,P3,NO,service_desk,SOFTWARE,P3,NO,applications,YES,HARDWARE,P3,NO,service_desk,YES,NO
+PE-06,Reset MFA for [USER_EMAIL]; the user replaced a phone and cannot sign in.,ACCESS,P3,YES,identity,ACCESS,P3,NO,identity,YES,ACCESS,P3,YES,identity,YES,NO
+PE-07,Several remote users report the VPN disconnecting every five minutes.,CONNECTIVITY,P2,NO,network,CONNECTIVITY,P3,NO,network,YES,CONNECTIVITY,P3,NO,network,YES,NO
+PE-08,An email asks an employee to approve an unexpected login and open an attachment.,SECURITY,P2,NO,security,SECURITY,P2,NO,security,NO,SECURITY,P2,NO,security,YES,NO
+PE-09,Please install the approved diagramming tool for a new project next week.,REQUEST,P4,NO,service_desk,ACCESS,P4,NO,identity,YES,REQUEST,P4,NO,service_desk,YES,NO
+PE-10,"One workstation loses wired connectivity, while nearby workstations remain online.",CONNECTIVITY,P3,NO,network,CONNECTIVITY,P2,NO,network,YES,CONNECTIVITY,P3,NO,network,YES,NO
+PE-11,Account [ACCOUNT_ID] is locked after repeated login attempts by the owner.,ACCESS,P3,YES,identity,ACCESS,P3,YES,identity,YES,ACCESS,P3,YES,identity,YES,NO
+PE-12,Endpoint protection reports active ransomware behavior on a shared file server.,SECURITY,P1,NO,security,SECURITY,P1,NO,security,NO,SECURITY,P1,NO,security,YES,NO
+PE-13,"Wi-Fi is stable, but the CRM returns a configuration error only on one profile.",SOFTWARE,P2,NO,applications,CONNECTIVITY,P2,NO,network,YES,CONNECTIVITY,P2,NO,network,YES,YES
+PE-14,A replacement mouse is needed because the current device double-clicks.,HARDWARE,P4,NO,service_desk,HARDWARE,P4,NO,service_desk,YES,HARDWARE,P4,NO,service_desk,YES,NO
+PE-15,DNS resolution failures are affecting all public-facing services.,CONNECTIVITY,P1,NO,network,CONNECTIVITY,P2,NO,network,YES,CONNECTIVITY,P1,NO,network,YES,NO
+PE-16,A required browser extension was disabled after an update and the user has a workaround.,SOFTWARE,P3,NO,applications,SOFTWARE,P3,NO,applications,YES,SOFTWARE,P3,NO,applications,YES,NO
+PE-17,Access token [TOKEN] was posted in a public chat and may still be active.,SECURITY,P1,YES,security,SECURITY,P1,NO,security,YES,SECURITY,P1,YES,security,YES,NO
+PE-18,Create read-only access to the new shared drive for the audit group.,REQUEST,P4,NO,service_desk,ACCESS,P4,NO,identity,YES,REQUEST,P4,NO,service_desk,YES,NO
+PE-19,The shipping printer jams on every job; other printers work normally.,HARDWARE,P3,NO,service_desk,HARDWARE,P2,NO,service_desk,YES,HARDWARE,P2,NO,service_desk,YES,NO
+PE-20,An unknown device logged into the executive mailbox overnight.,SECURITY,P2,NO,security,SECURITY,P2,NO,security,NO,SECURITY,P2,NO,security,YES,NO

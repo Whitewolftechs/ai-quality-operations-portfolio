@@ -1,0 +1,9 @@
+risk_id,risk,probability,impact,owner,preventive_control,trigger,escalation
+R-01,Guideline ambiguity creates inconsistent labels,High,High,Quality Lead,"Pilot, edge-case log and versioned examples",Agreement below 90%,Pause affected label and calibrate
+R-02,Personal data appears in task content,Medium,Critical,Privacy Lead,Data minimization and access controls,Confirmed PII outside approved scope,"Stop work, contain and notify"
+R-03,Demand exceeds trained reviewer capacity,Medium,High,Operations Lead,Eight-week forecast and flex pool,Utilization above 105% for two weeks,Reforecast and add eligible capacity
+R-04,Tool outage blocks production,Medium,Medium,Technical Lead,Status monitoring and continuity procedure,Platform unavailable over 30 minutes,Activate downtime protocol
+R-05,Quality sampling misses a rare severe error,Low,Critical,Quality Lead,Risk-based oversampling and hard-fail review,One confirmed privacy or security hard fail,Expand audit and contain batch
+R-06,Metric definitions change mid-reporting period,Medium,Medium,Operations Analyst,KPI dictionary and change log,Source field or denominator changes,Restate affected reports
+R-07,Reviewer fatigue increases rework,Medium,Medium,Team Lead,"Shift limits, rotation and break policy",AHT and error rate rise together,Rebalance queue and review workload
+R-08,Locale work is assigned to an ineligible reviewer,Low,High,Staffing Lead,Eligibility matrix and assignment checks,Skill mismatch found in audit,Reassign and re-audit affected work

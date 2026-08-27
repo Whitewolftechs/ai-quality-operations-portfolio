@@ -1,0 +1,51 @@
+record_id,incident_text,gold_category,gold_severity,gold_pii,annotator_a_category,annotator_a_severity,annotator_b_category,annotator_b_severity,adjudicated_category,adjudicated_severity,edge_case_note
+NA-001,User is locked out after three failed sign-in attempts.,ACCESS,S3,NO,ACCESS,S3,ACCESS,S3,ACCESS,S3,
+NA-002,Remote staff lose VPN connectivity every ten minutes.,CONNECTIVITY,S2,NO,CONNECTIVITY,S2,CONNECTIVITY,S2,CONNECTIVITY,S2,
+NA-003,Employee opened a suspicious attachment and endpoint alerts began.,SECURITY,S2,NO,SECURITY,S2,SECURITY,S2,SECURITY,S2,
+NA-004,Laptop display flickers when the hinge moves.,HARDWARE,S3,NO,HARDWARE,S3,HARDWARE,S3,HARDWARE,S3,
+NA-005,Payroll application closes immediately after launch.,SOFTWARE,S2,NO,SOFTWARE,S2,REQUEST,S2,SOFTWARE,S2,Reviewed during adjudication; precedence rule applied.
+NA-006,Create read-only access to a new shared drive for the audit group.,REQUEST,S4,NO,REQUEST,S4,REQUEST,S3,REQUEST,S4,
+NA-007,MFA push never arrives on the registered device.,ACCESS,S3,NO,CONNECTIVITY,S3,ACCESS,S3,ACCESS,S3,Reviewed during adjudication; precedence rule applied.
+NA-008,One desk has no wired connection while adjacent desks are online.,CONNECTIVITY,S3,NO,CONNECTIVITY,S3,CONNECTIVITY,S3,CONNECTIVITY,S3,
+NA-009,[TOKEN] was posted in a public repository and may be active.,SECURITY,S1,YES,SECURITY,S2,SECURITY,S1,SECURITY,S1,
+NA-010,Desktop does not power on after a confirmed outlet test.,HARDWARE,S3,NO,HARDWARE,S3,HARDWARE,S3,HARDWARE,S3,
+NA-011,Approved browser extension was disabled after an update.,SOFTWARE,S3,NO,SOFTWARE,S3,SOFTWARE,S3,SOFTWARE,S3,
+NA-012,New employee needs a standard laptop for next Monday.,REQUEST,S4,NO,REQUEST,S4,ACCESS,S4,REQUEST,S4,Reviewed during adjudication; precedence rule applied.
+NA-013,Administrator permissions disappeared after a role change.,ACCESS,S2,NO,ACCESS,S2,ACCESS,S2,ACCESS,S2,
+NA-014,Public DNS resolution fails for all external services.,CONNECTIVITY,S1,NO,CONNECTIVITY,S1,CONNECTIVITY,S1,CONNECTIVITY,S1,
+NA-015,Unknown device signed into an executive mailbox overnight.,SECURITY,S2,NO,SECURITY,S2,SECURITY,S2,SECURITY,S2,
+NA-016,Keyboard repeats characters across multiple applications.,HARDWARE,S3,NO,HARDWARE,S3,HARDWARE,S3,HARDWARE,S3,
+NA-017,CRM returns a configuration error for one user profile.,SOFTWARE,S3,NO,SOFTWARE,S3,SOFTWARE,S3,SOFTWARE,S3,
+NA-018,Install the approved diagramming tool for a planned project.,REQUEST,S4,NO,ACCESS,S4,ACCESS,S4,REQUEST,S4,Reviewed during adjudication; precedence rule applied.
+NA-019,[USER_EMAIL] cannot reset the expired password.,ACCESS,S3,YES,ACCESS,S3,ACCESS,S3,ACCESS,S3,
+NA-020,Wi-Fi latency rises sharply in one conference room.,CONNECTIVITY,S3,NO,CONNECTIVITY,S3,CONNECTIVITY,S3,CONNECTIVITY,S3,
+NA-021,Ransomware behavior is detected on a shared file server.,SECURITY,S1,NO,SECURITY,S1,SECURITY,S1,SECURITY,S1,
+NA-022,Server drive reports a predictive failure alert.,HARDWARE,S2,NO,HARDWARE,S2,HARDWARE,S2,HARDWARE,S2,
+NA-023,Operating-system update repeatedly rolls back at 90 percent.,SOFTWARE,S3,NO,SOFTWARE,S3,REQUEST,S3,SOFTWARE,S3,Reviewed during adjudication; precedence rule applied.
+NA-024,Provide a replacement mouse during the next equipment round.,REQUEST,S4,NO,REQUEST,S4,REQUEST,S4,REQUEST,S4,
+NA-025,Shared mailbox access works for everyone except one approved user.,ACCESS,S3,NO,ACCESS,S3,ACCESS,S3,ACCESS,S3,
+NA-026,Branch office cannot reach the data center after a router reboot.,CONNECTIVITY,S2,NO,CONNECTIVITY,S2,CONNECTIVITY,S2,CONNECTIVITY,S2,
+NA-027,User entered [PASSWORD] into a page linked from an email.,SECURITY,S2,YES,SECURITY,S3,SECURITY,S3,SECURITY,S2,
+NA-028,Docking station no longer detects either external monitor.,HARDWARE,S3,NO,HARDWARE,S3,HARDWARE,S3,HARDWARE,S3,
+NA-029,Spreadsheet macros no longer run after a security-policy change.,SOFTWARE,S3,NO,REQUEST,S3,SOFTWARE,S3,SOFTWARE,S3,Reviewed during adjudication; precedence rule applied.
+NA-030,Add the training room to the guest Wi-Fi allow list.,REQUEST,S4,NO,REQUEST,S4,REQUEST,S4,REQUEST,S4,
+NA-031,New password is accepted on webmail but rejected by the desktop client.,ACCESS,S3,NO,ACCESS,S3,ACCESS,S3,ACCESS,S3,
+NA-032,Video calls drop packets but ordinary browsing remains available.,CONNECTIVITY,S3,NO,CONNECTIVITY,S3,CONNECTIVITY,S3,CONNECTIVITY,S3,
+NA-033,Firewall logs show repeated access attempts from a blocked region.,SECURITY,S2,NO,SECURITY,S2,SECURITY,S2,SECURITY,S2,
+NA-034,Printer jams on every job while other printers work.,HARDWARE,S3,NO,HARDWARE,S3,SOFTWARE,S3,HARDWARE,S3,Reviewed during adjudication; precedence rule applied.
+NA-035,"Document-management client cannot sync, but the website works.",SOFTWARE,S3,NO,SOFTWARE,S3,SOFTWARE,S3,SOFTWARE,S3,
+NA-036,Generate a monthly inventory report for department managers.,REQUEST,S4,NO,REQUEST,S4,REQUEST,S4,REQUEST,S4,
+NA-037,Service account is locked and the nightly integration cannot run.,ACCESS,S2,NO,ACCESS,S2,ACCESS,S2,ACCESS,S2,
+NA-038,Guest network is unavailable during a scheduled public event.,CONNECTIVITY,S2,NO,CONNECTIVITY,S2,CONNECTIVITY,S3,CONNECTIVITY,S2,
+NA-039,Antivirus quarantined a tool the user does not recognize.,SECURITY,S2,NO,SECURITY,S2,SECURITY,S2,SECURITY,S2,
+NA-040,UPS battery test fails in the network closet.,HARDWARE,S2,NO,HARDWARE,S2,HARDWARE,S2,HARDWARE,S2,
+NA-041,Remote-support application crashes on every technician workstation.,SOFTWARE,S2,NO,REQUEST,S2,REQUEST,S2,SOFTWARE,S2,Reviewed during adjudication; precedence rule applied.
+NA-042,Create a service account for an approved integration.,REQUEST,S4,NO,REQUEST,S4,REQUEST,S4,REQUEST,S4,
+NA-043,User receives repeated MFA prompts during a normal login.,ACCESS,S3,NO,ACCESS,S3,ACCESS,S3,ACCESS,S3,
+NA-044,VPN connects but cannot resolve internal host names.,CONNECTIVITY,S2,NO,CONNECTIVITY,S3,CONNECTIVITY,S3,CONNECTIVITY,S2,
+NA-045,A former contractor's account appears active after offboarding.,SECURITY,S2,NO,SECURITY,S2,SECURITY,S2,SECURITY,S2,
+NA-046,Headset microphone is not detected on a second tested computer.,HARDWARE,S3,NO,SOFTWARE,S3,HARDWARE,S3,HARDWARE,S3,Reviewed during adjudication; precedence rule applied.
+NA-047,PDF viewer shows blank pages for one approved document type.,SOFTWARE,S3,NO,SOFTWARE,S3,SOFTWARE,S3,SOFTWARE,S3,
+NA-048,Schedule a firewall rule change for the maintenance window.,REQUEST,S4,NO,REQUEST,S4,REQUEST,S4,REQUEST,S4,
+NA-049,Approved analyst cannot open the restricted reporting folder.,ACCESS,S3,NO,ACCESS,S3,CONNECTIVITY,S3,ACCESS,S3,Reviewed during adjudication; precedence rule applied.
+NA-050,Network printer is reachable by IP but not by its DNS name.,CONNECTIVITY,S3,NO,CONNECTIVITY,S3,CONNECTIVITY,S3,CONNECTIVITY,S3,
